@@ -1,0 +1,11 @@
+services:
+  user-auth-service:
+    build: .
+    container_name: user-auth-service
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/data
+      - ./cron:/cron
+      - ./scripts:/app/scripts
+    restart: always
