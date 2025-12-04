@@ -1,0 +1,29 @@
+# Encrypted seed 
+encrypted/encrypted_seed.txt
+
+# VSCode settings
+.vscode/
+
+cron/2fa-cron text eol=lf
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+.eggs/
